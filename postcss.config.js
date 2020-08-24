@@ -8,8 +8,8 @@ module.exports = ({ env }) => ({
     require("postcss-nested"),
     require("tailwindcss"),
     env === 'production' ? purgecss({
-      content: ['./layouts/**/*.html', './src/**/*.vue', './src/**/*.jsx'],
-      defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+      content: ['./src/**/*.svelte', './src/**/*.html'],
+      defaultExtractor: content => content.match(/[^<>"'`\s]*[^<>"'`\s:]/g) || []
     }) : null,
     env === 'production' ? autoprefixer() : null,
     env === 'production' ? cssnano({
