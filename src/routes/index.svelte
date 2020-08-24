@@ -10,8 +10,11 @@
 	import SecondaryButton from "../components/SecondaryButton.svelte";
 	import CustomServices from "../components/Services.svelte";
 	import Heading2 from "../components/Heading2.svelte";
+	import PagesToExport from "../components/PagesToExport.svelte";
 	cta.set(true)
 </script>
+
+<PagesToExport />
 
 <div class="pt-64 pb-32 bg-gray-200">
 	<CustomContainer>
