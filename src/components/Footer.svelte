@@ -1,6 +1,7 @@
 <script>
     import { cta } from '../store.js';
     import CustomContainer from "../components/Container.svelte";
+    import SecondaryButton from "../components/SecondaryButton.svelte";
     let showCta;
     const unsubscribe = cta.subscribe(value => {
 		showCta = value;
@@ -22,17 +23,8 @@
                             <span class="text-indigo-300">Jetzt eine unverbindliche Anfrage stellen.</span>
                         </h2>
                         <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
-                            <!-- <div class="inline-flex rounded-md shadow">
-                                <a href="."
-                                    class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-                                    Get started
-                                </a>
-                            </div> -->
                             <div class="inline-flex rounded-md shadow">
-                                <a href="anfrage"
-                                    class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-                                    Anfrage stellen
-                                </a>
+                                <SecondaryButton text="Anfrage stellen" href="anfrage" />
                             </div>
                         </div>
                     </div>
@@ -42,6 +34,7 @@
             <div class="text-gray-200 py-20">
                 <div class="grid grid-cols-12 gap-y-12 md:gap-4">
                     <div class="col-span-12 md:col-span-6">
+                        <img src="logo.jpg" alt="Firmenlogo" class="mb-8">
                         <h2 class="text-lg font-semibold mb-4">Über uns</h2>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. At et ipsam autem nostrum reprehenderit consequatur accusamus, neque pariatur dolorum corporis mollitia expedita quae, voluptatem velit! Dolorem temporibus pariatur soluta velit.
@@ -49,12 +42,16 @@
                     </div>
                     <div class="hidden md:block col-span-1"></div>
                     <div class="col-span-12 md:col-span-3">
-                        <h2 class="text-lg font-semibold mb-4">Inhalt</h2>
+                        <h2 class="text-lg font-semibold mb-4">Kontakt</h2>
                         <ul>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href=".">Startseite</a>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="leistungen">Leistungen</a>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="anfrage">Anfrage</a>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="kontakt">Kontakt</a>
+                            <span class="block mb-3 md:mb-1 text-base font-bold">Boban Stanojevic</span>
+                            <a class="block mb-3 hover:text-white text-base md:mb-1" href=".">0176 1234564</a>
+                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="leistungen">kontakt@id-gebaeudemanagement.de</a>
+                            <a class="block mb-3 hover:text-white text-base md:mb-1 leading-tight" href="anfrage">
+                                I.D. Gebäudemanagement <br>
+                                Straße 123, <br>
+                                90933 München
+                            </a>
                         </ul>
                     </div>
                     <div class="col-span-12 md:col-span-2 lg:text-right">

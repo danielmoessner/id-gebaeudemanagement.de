@@ -27,16 +27,15 @@
 <div class="py-32">
 	<CustomContainer>
 		<Heading2 heading="Über uns" />
-		<div class="flex">
-			<div class="w-1/3">
-				<div class="pr-8">
+		<div class="flex flex-wrap">
+			<div class="w-full md:w-1/3">
+				<div class="pr-8 mb-8 md:mb-0">
 					<div class="font-bold">
-						<img src="https://via.placeholder.com/400" alt="Logo">
-						I.D. Gebäudereinigung
+						<img class="max-w-full h-auto" src="logo.jpg" alt="Logo">
 					</div>
 				</div>
 			</div>
-			<div class="w-2/3">
+			<div class="w-full md:w-2/3">
 				<h3 class="font-bold">Top Leistungen</h3>
 				<p class="mb-6">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, repellendus at facilis, sequi ut quos
