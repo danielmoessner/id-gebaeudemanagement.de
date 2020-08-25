@@ -9,12 +9,16 @@
 </script>
 
 <!-- <div class="overflow-x-hidden sticky top-0 z-50"> -->
-<div class="bg-indigo-600 relative overflow-hidden">
+<div class="relative overflow-hidden">
     <CustomContainer customClass="relative bg-indigo-500 z-50">
         <div class="border-b border-gray-400 py-2 flex relative z-10">
             <a class="text-gray-300 hover:text-white block" href=".">0123 45678945</a>
             <a class="text-gray-300 hover:text-white block ml-4" href=".">0123 45678945</a>
             <a class="text-gray-300 hover:text-white block ml-auto" href=".">info@id-gebaeudereinigung.de</a>
+        </div>
+        <div class="absolute bg-indigo-600 bottom-0 right-0 w-full h-800 transform origin-bottom-right rotate-75 z-0" style="--transform-translate-y: 85px">
+        </div>
+        <div class="absolute bg-indigo-600 bottom-0 left-0 w-full h-800 transform origin-bottom-left -rotate-75 z-0" style="--transform-translate-y: 85px">
         </div>
         <div class="absolute bg-indigo-500 bottom-0 right-0 w-full h-800 transform origin-bottom-right rotate-45 z-0" style="--transform-translate-y: 85px">
         </div>
