@@ -20,8 +20,8 @@
 	<CustomContainer>
 		<HeaderHeading heading="Wir sorgen für die Sauberkeit, sodass sich Ihre Kunden &amp; Mitarbeiter wohlfühlen.">
 			<div class="mt-6">
-				<PrimaryButton href="kontakt" text="Kontakt aufnehmen" customClasses="mr-4" />
-				<SecondaryButton href="anfrage" text="Anfrage stellen" />
+				<PrimaryButton href="kontakt" text="Kontakt aufnehmen" customClasses="mr-4 mb-2" />
+				<SecondaryButton href="anfrage" text="Anfrage stellen" customClasses="mb-2" />
 			</div>
 		</HeaderHeading>
 	</CustomContainer>

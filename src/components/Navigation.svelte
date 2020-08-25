@@ -40,19 +40,19 @@
             </div>
             <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto { navbarOpen ? 'block' : 'hidden' }">
                 <div class="text-sm lg:flex-grow lg:text-right">
-                    <a href="."
+                    <a href="." on:click="{() => {navbarOpen = false}}"
                         class="block mt-4 lg:inline-block lg:mt-0 text-gray-100 text-lg hover:border-gray-200 border border-transparent rounded px-2 lg:px-1 p-1 hover:text-white lg:mr-4 focus:outline-none">
                         Startseite
                     </a>
-                    <a href="leistungen"
+                    <a href="leistungen" on:click="{() => {navbarOpen = false}}"
                         class="block mt-4 lg:inline-block lg:mt-0 text-gray-100 text-lg hover:border-gray-200 border border-transparent rounded px-2 lg:px-1 p-1 hover:text-white lg:mr-4 focus:outline-none">
                         Leistungen
                     </a>
-                    <a href="anfrage"
+                    <a href="anfrage" on:click="{() => {navbarOpen = false}}"
                         class="block mt-4 lg:inline-block lg:mt-0 text-gray-100 text-lg hover:border-gray-200 border border-transparent rounded px-2 lg:px-1 p-1 hover:text-white lg:mr-4 focus:outline-none">
                         Anfrage
                     </a>
-                    <a href="kontakt"
+                    <a href="kontakt" on:click="{() => {navbarOpen = false}}"
                         class="block mt-4 lg:inline-block lg:mt-0 text-gray-100 text-lg hover:border-gray-200 border border-transparent rounded px-2 lg:px-1 p-1 hover:text-white lg:-mr-1 focus:outline-none">
                         Kontakt
                     </a>
