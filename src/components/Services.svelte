@@ -38,7 +38,7 @@
 <div class="grid gap-y-12 md:gap-8 grid-cols-3">
     {#each serviceCards as card}
         <div class="col-span-3 md:col-span-1">
-            <ServiceCard title="{card.title}" text="{card.text}" />
+            <ServiceCard title="{card.title}" text="{card.text}" image="{card.image}" />
         </div>
     {/each}
 </div>
