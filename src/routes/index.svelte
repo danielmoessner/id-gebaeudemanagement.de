@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>I.D. Gebäudereinigung</title>
+	<title>I.D. Gebäudemanagement</title>
 </svelte:head>
 
 <script>

@@ -3,32 +3,32 @@
 
     let serviceCards = [
         {
-            image: "https://via.placeholder.com/400",
+            image: "img/bueroreinigung.1000.jpg",
             title: "Büroreinigung",
             text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam voluptate ad, harum repellendus adipisci."
         },
         {
-            image: "https://via.placeholder.com/400",
+            image: "img/teppichreinigung.1000.jpg",
             title: "Teppichreinigung",
             text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam voluptate ad, harum repellendus adipisci. Vel iste deserunt pariatur, omnis animi non inventore nam rem provident at maxime nostrum maiores."
         },
         {
-            image: "https://via.placeholder.com/400",
+            image: "img/gebaeudereinigung.1000.jpg",
             title: "Gebäudereinigung",
             text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam voluptate ad, harum repellendus adipisci. Vel iste deserunt pariatur, omnis animi non inventore nam rem provident at maxime nostrum maiores."
         },
         {
-            image: "https://via.placeholder.com/400",
+            image: "img/treppenhausreinigung.1000.jpg",
             title: "Treppenhausreinigung",
             text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam voluptate ad, harum repellendus adipisci. Vel iste deserunt pariatur, omnis animi non inventore nam rem provident at maxime nostrum maiores."
         },
         {
-            image: "https://via.placeholder.com/400",
+            image: "img/praxisreinigung.1000.jpg",
             title: "Praxisreinigung",
             text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam voluptate ad, harum repellendus adipisci. Vel iste deserunt pariatur, omnis animi non inventore nam rem provident at maxime nostrum maiores."
         },
         {
-            image: "https://via.placeholder.com/400",
+            image: "img/fensterreinigung.1000.jpg",
             title: "Fensterreinigung",
             text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero numquam voluptate ad, harum repellendus adipisci. Vel iste deserunt pariatur, omnis animi non inventore nam rem provident at maxime nostrum maiores."
         }

@@ -6,7 +6,7 @@
 
 <div>
     <div class="relative pb-5/6 overflow-hidden">
-        <img class="absolute h-full w-full object-cover rounded-sm shadow-md" alt="unknown so far" src="{image}">
+        <img class="absolute h-full w-full object-cover rounded-sm shadow-md" alt="{title}" src="{image}">
         <div class="absolute top-0 left-0 w-16 h-40 transform rotate-45 bg-indigo-500 origin-top-right"></div>
     </div>
     <div class="relative px-4 -mt-16">
