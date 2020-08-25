@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="en">
+<html lang="de" class="">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -25,9 +26,13 @@
 	     the current page has one -->
 	%sapper.head%
 </head>
-<body class="overflow-x-hidden">
-	<!-- The application will be rendered inside this element,
+
+<body class="">
+	<div class="">
+		<!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
-	<div class="overflow-x-hidden" id="sapper">%sapper.html%</div>
+		<div id="sapper">%sapper.html%</div>
+	</div>
 </body>
+
 </html>

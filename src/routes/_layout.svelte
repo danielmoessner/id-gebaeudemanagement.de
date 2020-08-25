@@ -6,7 +6,7 @@
 
 <PageNavigation />
 
-<main class="-mt-126 overflow-x-hidden">
+<main class="-mt-126">
 	<slot></slot>
 </main>
 
