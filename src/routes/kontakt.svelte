@@ -13,17 +13,17 @@
         {
             icon: '<path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>',
             heading: "Adresse",
-            text: "Maierstraße 8b <br> 90933 München"
+            text: "Silcherstraße 13 <br> 80807 München"
         },
         {
             icon: '<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>',
             heading: "Telefon",
-            text: "<a class='hover:text-indigo-700 transition-all duration-300' href='.'>0123 4567893</a> <br> Boban Stanojevic"
+            text: "<a class='hover:text-indigo-700 transition-all duration-300' href='tel:00491712198934'>0171 2198934</a> <br> Boban Stanojevic"
         },
         {
             icon: '<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>',
             heading: "E-Mail",
-            text: "<a class='hover:text-indigo-700 transition-all duration-300' href='.'>info@id-gebaeudereinigung.de</a>"
+            text: "<a class='hover:text-indigo-700 transition-all duration-300' href='mailto:kontakt@id-gebaeudemanagement.de?subject=Anfrage'>kontakt@id-gebaeudemanagement.de</a>"
         }
     ]
 </script>

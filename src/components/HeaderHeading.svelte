@@ -1,6 +1,6 @@
 <script>
     export let heading;
-    export let subHeading;
+    export let subHeading = false;
 </script>
 
 <div class="w-full md:w-2/3">

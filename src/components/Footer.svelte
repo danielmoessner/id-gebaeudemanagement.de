@@ -37,7 +37,7 @@
                         <img src="logo.jpg" alt="Firmenlogo" class="mb-8">
                         <h2 class="text-lg font-semibold mb-4">Über uns</h2>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At et ipsam autem nostrum reprehenderit consequatur accusamus, neque pariatur dolorum corporis mollitia expedita quae, voluptatem velit! Dolorem temporibus pariatur soluta velit.
+                            Wir sorgen für die Sauberkeit, sodass sich Ihre Kunden &amp; Mitarbeiter wohlfühlen. Lassen Sie sich von uns ein unverbindliches Angebot zusammenstellen.
                         </p>
                     </div>
                     <div class="hidden md:block col-span-1"></div>
@@ -45,13 +45,13 @@
                         <h2 class="text-lg font-semibold mb-4">Kontakt</h2>
                         <ul>
                             <span class="block mb-3 md:mb-1 text-base font-bold">Boban Stanojevic</span>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href=".">0176 1234564</a>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="leistungen">kontakt@id-gebaeudemanagement.de</a>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1 leading-tight" href="anfrage">
+                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="tel:00491712198934">0171 2198934</a>
+                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="mailto:kontakt@id-gebaeudemanagement.de?subject=Anfrage">kontakt@id-gebaeudemanagement.de</a>
+                            <span class="block mb-3 text-base md:mb-1 leading-tight">
                                 I.D. Gebäudemanagement <br>
-                                Straße 123, <br>
-                                90933 München
-                            </a>
+                                Silcherstraße 13, <br>
+                                80807 München
+                            </span>
                         </ul>
                     </div>
                     <div class="col-span-12 md:col-span-2 lg:text-right">
