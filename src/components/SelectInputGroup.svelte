@@ -1,7 +1,7 @@
 <script>
     export let options;
     export let label;
-    let name = label.replace(" ", "").toLowerCase();
+    let name = slugify(label)
 </script>
 
 <div class="flex flex-wrap mb-8">

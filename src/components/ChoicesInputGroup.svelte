@@ -2,7 +2,7 @@
     export let choices;
     export let label;
     let name = label.replace(" ", "").toLowerCase();
-    $: choices_with_ids = choices.map(choice => { return { "name": choice, "id": choice.replace(" ", "").toLowerCase() } })
+    $: choices_with_ids = choices.map(choice => { return { "name": choice, "id": slugify(choice) } })
 </script>
 
 <div class="flex flex-wrap mb-8">
