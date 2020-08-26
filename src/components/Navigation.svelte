@@ -54,15 +54,15 @@
                                 class="block mt-4 lg:inline-block lg:mt-0 text-gray-100 text-lg hover:border-gray-200 border border-transparent rounded px-2 lg:px-1 p-1 hover:text-white lg:mr-4 focus:outline-none">
                                 Startseite
                             </a>
-                            <a href="leistungen" on:click="{() => {navbarOpen = false}}"
+                            <a href="leistungen/" on:click="{() => {navbarOpen = false}}"
                                 class="block mt-4 lg:inline-block lg:mt-0 text-gray-100 text-lg hover:border-gray-200 border border-transparent rounded px-2 lg:px-1 p-1 hover:text-white lg:mr-4 focus:outline-none">
                                 Leistungen
                             </a>
-                            <a href="anfrage" on:click="{() => {navbarOpen = false}}"
+                            <a href="anfrage/" on:click="{() => {navbarOpen = false}}"
                                 class="block mt-4 lg:inline-block lg:mt-0 text-gray-100 text-lg hover:border-gray-200 border border-transparent rounded px-2 lg:px-1 p-1 hover:text-white lg:mr-4 focus:outline-none">
                                 Anfrage
                             </a>
-                            <a href="kontakt" on:click="{() => {navbarOpen = false}}"
+                            <a href="kontakt/" on:click="{() => {navbarOpen = false}}"
                                 class="block mt-4 lg:inline-block lg:mt-0 text-gray-100 text-lg hover:border-gray-200 border border-transparent rounded px-2 lg:px-1 p-1 hover:text-white lg:-mr-1 focus:outline-none">
                                 Kontakt
                             </a>

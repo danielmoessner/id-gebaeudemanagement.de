@@ -2,6 +2,7 @@
     export let choices;
     export let label;
     let name = label.replace(" ", "").toLowerCase();
+    import {slugify} from "../components/Global.svelte"
     $: choices_with_ids = choices.map(choice => { return { "name": choice, "id": slugify(choice) } })
 </script>
 

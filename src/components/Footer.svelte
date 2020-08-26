@@ -57,8 +57,8 @@
                     <div class="col-span-12 md:col-span-2 lg:text-right">
                         <h2 class="text-lg font-semibold mb-4">Rechtliches</h2>
                         <ul>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="impressum">Impressum</a>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="datenschutz">Datenschutz</a>
+                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="impressum/">Impressum</a>
+                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="datenschutz/">Datenschutz</a>
                         </ul>
                     </div>
                 </div>

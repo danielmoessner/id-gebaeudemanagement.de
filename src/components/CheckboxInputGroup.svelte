@@ -2,6 +2,7 @@
     export let label;
     export let text;
     export let required = false;
+    import {slugify} from "../components/Global.svelte"
     let name = slugify(label);
 </script>
 

@@ -2,7 +2,8 @@
     export let type;
     export let label;
     export let placeholder;
-    let name = label.replace(" ", "").toLowerCase();
+    import {slugify} from "../components/Global.svelte"
+    let name = slugify(label)
 </script>
 
 <div class="flex flex-wrap mb-8">

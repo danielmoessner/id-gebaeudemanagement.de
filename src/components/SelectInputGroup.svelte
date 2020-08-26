@@ -1,6 +1,7 @@
 <script>
     export let options;
     export let label;
+    import {slugify} from "../components/Global.svelte"
     let name = slugify(label)
 </script>
 
