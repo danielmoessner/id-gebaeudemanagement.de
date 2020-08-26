@@ -1,5 +1,4 @@
 <script>
-	import Nav from '../components/Nav.svelte';
 	import PageNavigation from '../components/Navigation.svelte';
 	import PageFooter from "../components/Footer.svelte";
 </script>
@@ -11,3 +10,4 @@
 </main>
 
 <PageFooter />
+ 

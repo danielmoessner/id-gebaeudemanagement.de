@@ -26,7 +26,7 @@
     <CustomContainer>
         <div class="flex flex-col items-center justify-center w-full">
             <div class="max-w-md w-full">
-                <form class="" name="anfrage" method="POST" data-netlify="true" action="/danke">
+                <form class="" name="anfrage" method="POST" data-netlify="true">
                     <InputGroup label="Name" type="text" placeholder="Muster" />
                     <InputGroup label="Firma" type="text" placeholder="Muster GmbH" />
                     <InputGroup label="E-Mail" type="mail" placeholder="ansprechpartner@muster.de" />
