@@ -27,6 +27,7 @@
         <div class="flex flex-col items-center justify-center w-full">
             <div class="max-w-md w-full">
                 <form class="" name="anfrage" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="anfrage">
                     <InputGroup label="Name" type="text" placeholder="Muster" />
                     <InputGroup label="Firma" type="text" placeholder="Muster GmbH" />
                     <InputGroup label="E-Mail" type="mail" placeholder="ansprechpartner@muster.de" />
