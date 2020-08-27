@@ -1,5 +1,6 @@
 <svelte:head>
 	<title>I.D. Gebäudemanagement</title>
+	<meta name="description" content="Wir sorgen für die Sauberkeit, sodass sich Ihre Kunden &amp; Mitarbeiter wohlfühlen. Schauen Sie sich jetzt unsere Leistungen an." />
 </svelte:head>
 
 <script>

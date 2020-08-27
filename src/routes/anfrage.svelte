@@ -1,5 +1,6 @@
 <svelte:head>
-	<title>Anfrage</title>
+    <title>Anfrage</title>
+    <meta name="description" content="Wir sorgen für die Sauberkeit, sodass sich Ihre Kunden &amp; Mitarbeiter wohlfühlen. Schauen Sie sich jetzt unsere Leistungen an." />
 </svelte:head>
 
 <script>

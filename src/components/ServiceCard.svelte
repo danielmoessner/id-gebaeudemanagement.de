@@ -12,7 +12,7 @@
     </div>
     <div class="relative px-4 -mt-16">
         <div class="bg-white p-6 rounded-sm shadow-lg"> 
-            <h4 class="font-semibold text-lg leading-tight truncate">{title}</h4>
+            <h3 class="font-semibold text-lg leading-tight truncate">{title}</h3>
             <div class="mt-2 flex items-center">
                 {text}
             </div>

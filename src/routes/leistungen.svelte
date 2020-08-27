@@ -1,5 +1,6 @@
 <svelte:head>
-	<title>Leistungen</title>
+    <title>Leistungen</title>
+    <meta name="description" content="Wir sorgen für die Sauberkeit, sodass sich Ihre Kunden &amp; Mitarbeiter wohlfühlen. Schauen Sie sich jetzt unsere Leistungen an." />
 </svelte:head>
 
 <script>
@@ -8,8 +9,6 @@
     import CustomContainer from "../components/Container.svelte";
     import CustomServices from "../components/Services.svelte";
     cta.set(true)
-
-   
 </script>
 
 <div class="pt-64 pb-32 bg-gray-200">

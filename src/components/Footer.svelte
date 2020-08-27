@@ -44,21 +44,21 @@
                     <div class="col-span-12 md:col-span-3">
                         <h2 class="text-lg font-semibold mb-4">Kontakt</h2>
                         <ul>
-                            <span class="block mb-3 md:mb-1 text-base font-bold">Boban Stanojevic</span>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="tel:00491712198934">0171 2198934</a>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="mailto:kontakt@id-gebaeudemanagement.de?subject=Anfrage">kontakt@id-gebaeudemanagement.de</a>
-                            <span class="block mb-3 text-base md:mb-1 leading-tight">
+                            <li><span class="block mb-3 md:mb-1 text-base font-bold">Boban Stanojevic</span></li>
+                            <li><a class="block mb-3 hover:text-white text-base md:mb-1" href="tel:00491712198934">0171 2198934</a></li>
+                            <li><a class="block mb-3 hover:text-white text-base md:mb-1" href="mailto:kontakt@id-gebaeudemanagement.de?subject=Anfrage">kontakt@id-gebaeudemanagement.de</a></li>
+                            <li><span class="block mb-3 text-base md:mb-1 leading-tight">
                                 I.D. Gebäudemanagement <br>
                                 Silcherstraße 13, <br>
                                 80807 München
-                            </span>
+                            </span></li>
                         </ul>
                     </div>
                     <div class="col-span-12 md:col-span-2 lg:text-right">
                         <h2 class="text-lg font-semibold mb-4">Rechtliches</h2>
                         <ul>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="impressum/">Impressum</a>
-                            <a class="block mb-3 hover:text-white text-base md:mb-1" href="datenschutz/">Datenschutz</a>
+                            <li><a class="block mb-3 hover:text-white text-base md:mb-1" href="impressum/">Impressum</a></li>
+                            <li><a class="block mb-3 hover:text-white text-base md:mb-1" href="datenschutz/">Datenschutz</a></li>
                         </ul>
                     </div>
                 </div>
