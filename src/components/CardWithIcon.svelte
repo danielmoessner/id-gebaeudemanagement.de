@@ -16,7 +16,7 @@
             class="h-64 w-32 absolute top-0 left-0 origin-top-right transform rotate-45 bg-indigo-500 z-0">
         </div>
         <div class="absolute top-0 left-0 text-gray-100 p-3">
-            <svg viewBox="0 0 20 20" fill="currentColor" class="home w-12 h-12">
+            <svg viewBox="0 0 20 20" fill="currentColor" class="w-12 h-12">
                 {@html icon}
             </svg>
         </div>

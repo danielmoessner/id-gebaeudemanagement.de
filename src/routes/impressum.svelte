@@ -25,7 +25,7 @@
 				80807 München <br>
 			</p><br>
 			<p> <strong>Vertreten durch: </strong><br>
-				Boban Stanojevic<br>
+				Dragica Ilic<br>
 			</p><br>
 			<p><strong>Kontakt:</strong> <br>
 				Telefon: 0171-2198934<br>

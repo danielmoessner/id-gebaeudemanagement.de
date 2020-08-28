@@ -9,7 +9,7 @@
 </script>
 
 <div class="pt-48 overflow-hidden">
-    <div class="bg-indigo-700">
+    <div class="bg-indigo-600">
         <CustomContainer customClass="relative">
             {#if showCta}
             <div class="">
@@ -44,7 +44,8 @@
                     <div class="col-span-12 md:col-span-3">
                         <h2 class="text-lg font-semibold mb-4">Kontakt</h2>
                         <ul>
-                            <li><span class="block mb-3 md:mb-1 text-base font-bold">Boban Stanojevic</span></li>
+                            <li><span class="block mb-3 md:mb-1 text-base font-bold">Ansprechpartner</span></li>
+                            <li><span class="block mb-3 md:mb-1 text-base">Boban Stanojevic</span></li>
                             <li><a class="block mb-3 hover:text-white text-base md:mb-1" href="tel:00491712198934">0171 2198934</a></li>
                             <li><a class="block mb-3 hover:text-white text-base md:mb-1" href="mailto:kontakt@id-gebaeudemanagement.de?subject=Anfrage">kontakt@id-gebaeudemanagement.de</a></li>
                             <li><span class="block mb-3 text-base md:mb-1 leading-tight">
@@ -70,10 +71,10 @@
                 class="absolute bg-indigo-600 bottom-0 right-0 w-full h-full transform origin-bottom-left translate-x-full rotate-15">
             </div> -->
             <div
-                class="absolute bg-indigo-600 top-0 left-0 w-full h-800 transform origin-top-right -translate-x-full rotate-15">
+                class="absolute bg-indigo-500 top-0 left-0 w-full h-800 transform origin-top-right -translate-x-full rotate-15">
             </div>
             <div
-                class="absolute bg-indigo-600 top-0 right-0 w-full h-800 transform origin-top-left translate-x-full -rotate-15">
+                class="absolute bg-indigo-500 top-0 right-0 w-full h-800 transform origin-top-left translate-x-full -rotate-15">
             </div>
         </CustomContainer>
     </div>

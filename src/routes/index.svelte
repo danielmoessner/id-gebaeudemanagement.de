@@ -19,7 +19,7 @@
 
 <div class="pt-64 pb-32 bg-gray-200">
 	<CustomContainer>
-		<HeaderHeading heading="Wir sorgen für die Sauberkeit, sodass sich Ihre Kunden &amp; Mitarbeiter wohlfühlen.">
+		<HeaderHeading heading="Professionelle Gebäudereinigung" subHeading="Wir halten was andere versprechen">
 			<div class="mt-6">
 				<PrimaryButton href="kontakt" text="Kontakt aufnehmen" customClasses="mr-4 mb-2" />
 				<SecondaryButton href="anfrage" text="Anfrage stellen" customClasses="mb-2" />
