@@ -34,9 +34,16 @@
             <div class="text-gray-200 py-20">
                 <div class="grid grid-cols-12 gap-y-12 md:gap-4">
                     <div class="col-span-12 md:col-span-6">
-                        <div class="flex mb-8 flex-wrap">
-                            <img src="logo.jpg" alt="Firmenlogo" class="lg:h-32 lg:w-auto w-48 mr-4 mb-4">
-                            <img src="img/handwerkskammer-transparent.png" class="lg:h-32 w-48 lg:w-auto bg-white mb-4" alt="Handwerkskammer">
+                        <div class="flex mb-8 flex-col sm:flex-row flex-wrap lg:flex-no-wrap">
+                            <div class="mr-4 mb-4">
+                                <img class="w-48 lg:h-32 md:h-auto lg:w-auto md:w-64 sm:h-32 sm:w-auto" src="logo.jpg" alt="Firmenlogo" >
+                            </div>
+                            <div class="mb-4">
+                                <figure class="max-w-full">
+                                    <img src="img/handwerkskammer-transparent.png" class="bg-white w-48 md:h-auto sm:h-32 lg:h-32 sm:w-auto lg:w-auto md:w-64 mb-1" alt="Handwerkskammer">
+                                    <figcaption class="lg:w-56 xl:w-64 w-64 text-sm">Mitglied der Handwerkskammer Oberbayern</figcaption>
+                                </figure>
+                            </div>
                         </div>
                         <h2 class="text-lg font-semibold mb-4">Über uns</h2>
                         <p>
