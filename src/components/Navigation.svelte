@@ -10,7 +10,7 @@
 
 <!-- <div class="overflow-x-hidden sticky top-0 z-50"> -->
 <div class="relative overflow-hidden">
-    <CustomContainer customClass="relative bg-indigo-500 z-50">
+    <CustomContainer customClass="relative bg-blue-600 z-50">
         <div class="border-b border-gray-400 py-2 flex relative z-10 flex-col md:flex-row">
             <a class="text-gray-300 flex items-center hover:text-white cursor-pointer my-3 md:my-0" href="tel:00491712198934">
                 <svg viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 mr-2">
@@ -29,16 +29,16 @@
                 <span class="block">kontakt@id-gebaeudemanagement.de</span>
             </a>
         </div>
-        <div class="absolute bg-indigo-400 bottom-0 right-0 w-full h-800 transform origin-bottom-right rotate-75 z-0 {navbarOpen ? 'bg-indigo-500' : ''}"
+        <div class="absolute bg-blue-500 bottom-0 right-0 w-full h-800 transform origin-bottom-right rotate-75 z-0 {navbarOpen ? 'bg-blue-600' : ''}"
             style="--transform-translate-y: 80px">
         </div>
-        <div class="absolute bg-indigo-400 bottom-0 left-0 w-full h-800 transform origin-bottom-left -rotate-75 z-0 {navbarOpen ? 'bg-indigo-500' : ''}"
+        <div class="absolute bg-blue-500 bottom-0 left-0 w-full h-800 transform origin-bottom-left -rotate-75 z-0 {navbarOpen ? 'bg-blue-600' : ''}"
             style="--transform-translate-y: 80px">
         </div>
-        <div class="absolute bg-indigo-500 bottom-0 right-0 w-full h-800 transform origin-bottom-right rotate-45 z-0"
+        <div class="absolute bg-blue-600 bottom-0 right-0 w-full h-800 transform origin-bottom-right rotate-45 z-0"
             style="--transform-translate-y: 80px">
         </div>
-        <div class="absolute bg-indigo-500 bottom-0 left-0 w-full h-800 transform origin-bottom-left -rotate-45 z-0"
+        <div class="absolute bg-blue-600 bottom-0 left-0 w-full h-800 transform origin-bottom-left -rotate-45 z-0"
             style="--transform-translate-y: 80px">
         </div>
     </CustomContainer>
@@ -46,16 +46,16 @@
 <nav class="sticky top-0 outline-none z-40">
     <div class="overflow-x-hidden">
         <div class="">
-            <CustomContainer customClass="bg-indigo-500 relative">
+            <CustomContainer customClass="bg-blue-600 relative">
                 <div class="flex items-center justify-between flex-wrap py-0 relative z-50">
-                    <div class="flex items-center flex-shrink-0 text-white mr-6">
+                    <div class="flex items-center flex-shrink-0 text-white mr-6 h-20">
                         <!-- <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
                 </svg> -->
-                        <img class="w-auto h-20 mr-3" src="logo.jpg" alt="Firmenlogo">
-                        <span class="font-semibold text-xl tracking-tight hidden md:block">I.D. Gebäudemanagement</span>
+                        <!-- <img class="w-auto h-20 mr-3 md:hidden" src="logo.jpg" alt="Firmenlogo"> -->
+                        <span class="font-semibold text-lg md:text-xl tracking-tight">I.D. Gebäudemanagement</span>
                     </div>
                     <div class="block lg:hidden">
                         <button on:click={toggleNavbar}
@@ -88,16 +88,16 @@
                     </div>
                 </div>
                 <div
-                    class="absolute bg-indigo-400 bottom-0 left-0 w-full h-800 transform origin-bottom-left -rotate-75 z-0">
+                    class="absolute bg-blue-500 bottom-0 left-0 w-full h-800 transform origin-bottom-left -rotate-75 z-0">
                 </div>
                 <div
-                    class="absolute bg-indigo-400 bottom-0 right-0 w-full h-800 transform origin-bottom-right rotate-75 z-0">
+                    class="absolute bg-blue-500 bottom-0 right-0 w-full h-800 transform origin-bottom-right rotate-75 z-0">
                 </div>
                 <div
-                    class="absolute bg-indigo-500 bottom-0 left-0 w-full h-800 transform origin-bottom-left -rotate-45 z-0">
+                    class="absolute bg-blue-600 bottom-0 left-0 w-full h-800 transform origin-bottom-left -rotate-45 z-0">
                 </div>
                 <div
-                    class="absolute bg-indigo-500 bottom-0 right-0 w-full h-800 transform origin-bottom-right rotate-45 z-0">
+                    class="absolute bg-blue-600 bottom-0 right-0 w-full h-800 transform origin-bottom-right rotate-45 z-0">
                 </div>
             </CustomContainer>
         </div>

@@ -9,7 +9,7 @@
 </script>
 
 <div class="pt-48 overflow-hidden">
-    <div class="bg-indigo-600">
+    <div class="bg-blue-700">
         <CustomContainer customClass="relative">
             {#if showCta}
             <div class="">
@@ -20,7 +20,7 @@
                             class="text-3xl leading-9 font-extrabold tracking-tight text-gray-300 sm:leading-10 m-0">
                             Sind Sie überzeugt?
                             <br>
-                            <span class="text-indigo-300">Jetzt eine unverbindliche Anfrage stellen.</span>
+                            <span class="text-blue-200">Jetzt eine unverbindliche Anfrage stellen.</span>
                         </h2>
                         <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
                             <div class="inline-flex rounded-md shadow">
@@ -34,7 +34,10 @@
             <div class="text-gray-200 py-20">
                 <div class="grid grid-cols-12 gap-y-12 md:gap-4">
                     <div class="col-span-12 md:col-span-6">
-                        <img src="logo.jpg" alt="Firmenlogo" class="mb-8">
+                        <div class="flex mb-8 flex-wrap">
+                            <img src="logo.jpg" alt="Firmenlogo" class="lg:h-32 lg:w-auto w-48 mr-4 mb-4">
+                            <img src="img/handwerkskammer-transparent.png" class="lg:h-32 w-48 lg:w-auto bg-white mb-4" alt="Handwerkskammer">
+                        </div>
                         <h2 class="text-lg font-semibold mb-4">Über uns</h2>
                         <p>
                             Wir sorgen für die Sauberkeit, sodass sich Ihre Kunden &amp; Mitarbeiter wohlfühlen. Lassen Sie sich von uns ein unverbindliches Angebot zusammenstellen.
@@ -71,10 +74,10 @@
                 class="absolute bg-indigo-600 bottom-0 right-0 w-full h-full transform origin-bottom-left translate-x-full rotate-15">
             </div> -->
             <div
-                class="absolute bg-indigo-500 top-0 left-0 w-full h-800 transform origin-top-right -translate-x-full rotate-15">
+                class="absolute bg-blue-600 top-0 left-0 w-full h-800 transform origin-top-right -translate-x-full rotate-15">
             </div>
             <div
-                class="absolute bg-indigo-500 top-0 right-0 w-full h-800 transform origin-top-left translate-x-full -rotate-15">
+                class="absolute bg-blue-600 top-0 right-0 w-full h-800 transform origin-top-left translate-x-full -rotate-15">
             </div>
         </CustomContainer>
     </div>

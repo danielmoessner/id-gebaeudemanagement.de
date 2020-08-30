@@ -17,9 +17,9 @@
 
 <PagesToExport />
 
-<div class="pt-64 pb-32 bg-gray-200">
+<div class="pt-64 pb-32 bg-gray-200 bg-cover" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/hauptbild.opt.jpg); background-position: 50% 80%;">
 	<CustomContainer>
-		<HeaderHeading heading="Professionelle Gebäudereinigung" subHeading="Wir halten was andere versprechen">
+		<HeaderHeading heading="Professionelle Gebäudereinigung" subHeading="Wir halten was andere versprechen" invert={true}>
 			<div class="mt-6">
 				<PrimaryButton href="kontakt" text="Kontakt aufnehmen" customClasses="mr-4 mb-2" />
 				<SecondaryButton href="anfrage" text="Anfrage stellen" customClasses="mb-2" />
