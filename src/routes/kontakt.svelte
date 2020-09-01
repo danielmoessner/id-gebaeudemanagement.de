@@ -53,7 +53,7 @@
 <div class="py-8">
     <CustomContainer customClass="focus:outline-none">
         <div class="shadow-md rounded overflow-hidden outline-none focus:outline-none">
-            <iframe class="outline-none focus:outline-none" title="Google Maps Standort" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21250.194472576575!2d11.608974265901555!3d48.25909545661181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1598100432520!5m2!1sde!2sde" height="450" frameborder="0" style="border:0; width: 100%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe class="outline-none focus:outline-none w-full" title="Google Maps Standort" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10640.326681972643!2d11.578286!3d48.1857779!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x491fd7790853e90d!2sI.D.%20Geb%C3%A4udemanagement!5e0!3m2!1sde!2sde!4v1598991096443!5m2!1sde!2sde" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </CustomContainer>
 </div>
